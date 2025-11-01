@@ -1,0 +1,1 @@
+media helps to adjust the ui according to the size of the screen if media (max-width:640px) then all the items will be in row but if it is media(min-width:640) then all items will align in column to adjust the ui according to screen size

@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Three</title>
+</head>
+
+<body>
+    <h1>Complex Form</h1>
+
+    <form>
+        <fieldset>
+            <legend>Personal Informations</legend>
+            <label for="name">Name</label>
+            <input type="text" id="name">
+
+            <label for="email">Email</label>
+            <input type="email" id="email">
+
+            <label for="phone">Phone</label>
+            <input type="tel" id="phone">
+
+            <label for="dob">Date of Birth</label>
+            <input type="date" id="dob">
+            
+            <span>Gender</span>
+            <input type="radio" name="gender" id="male">
+            <label for="male">Male</label>
+
+            <input type="radio" name="gender" id="female">
+            <label for="female">Female</label>
+
+            <label for="country">Country</label>
+            <select name="country" id="country">
+                <option value="">India</option>
+                <option value="">United States</option>
+                <option value="">Australia</option>
+            </select>
+
+        </fieldset>
+
+        <fieldset>
+            <legend>Address</legend>
+
+            <label for="street">Street</label>
+            <input type="text" id="street">
+
+            <label for="city">City</label>
+            <input type="text" id="city">
+
+            <label for="State">State</label>
+            <input type="text" id="State">
+
+            <label for="zip">Zip Code</label>
+            <input type="text" id="zip">
+        </fieldset>
+
+        <fieldset>
+            <legend>Other Informations</legend>
+            <label for="comment">Comments</label>
+            <textarea name="" id="comment" cols="30" rows="10"></textarea>
+            <label for="trems">I agree to the terms of service</label>
+            <input type="checkbox" id="trems">
+        </fieldset>
+
+        <button>Submit</button>
+
+
+    </form>
+
+</body>
+
+</html>

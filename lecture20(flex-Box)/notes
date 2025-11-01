@@ -1,0 +1,10 @@
+1.flex-box:
+Align items or arranging item according to the need 
+
+2.display- flex: karne se by default box row ki direction me set ho jate hai
+
+3.flex-direction can be column wise and row wise 
+
+4.flex- wrap: to set the box at the same dimension for every screen sze
+
+5.justify-content: 

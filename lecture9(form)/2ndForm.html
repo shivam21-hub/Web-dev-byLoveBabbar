@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h2>Job Application</h2>
+    <form>
+        <label for="name">Name:</label>
+        <br>
+        <input type="text" id="name">
+        <br>
+
+        <label for="email">Email:</label>
+        <br>
+        <input type="email" id="email">
+        <br>
+
+        <label for="phone">Phone:</label>
+        <br>
+        <input type="tel" id="phone">
+        <br>
+
+        <label for="resume">Resume:</label>
+        <br>
+        <input type="file" id="resume">
+        <br>
+
+        <label for="Experience">Experience(years):</label>
+        <br>
+        <input type="number" id="Experience" min="0" max="50">
+        <br>
+
+        <fieldset>
+            <legend>Skills</legend>
+            <label for="html">HTML</label>
+            <input type="checkbox" id="html">
+            <br>
+            <label for="css">CSS</label>
+            <input type="checkbox" id="css">
+            <br>
+            <label for="Js">JavaScript</label>
+            <input type="checkbox" id="Js">
+        </fieldset>
+
+        <label for="Higher Education">Higher Education:</label>
+        <br>
+        <select name="education" id="Higher Education">
+            <option value="Education">High School</option>
+            <option value="Education">College</option>
+            <option value="Education">Post Graduation</option>
+        </select>
+        <br>
+        <br>
+
+        <fieldset>
+            <legend>Availability:</legend>
+            <label for="time1">Full Time</label>
+            <br>
+            <input type="radio" name="radio" id="time1">
+            <br>
+            <label for="time2">Part Time</label>
+            <br>
+            <input type="radio" name="radio" id="time2">
+        </fieldset>
+        <br>
+
+        <label for="comment">Additional Comments:</label>
+        <br>
+        <textarea name="comment" id="comment" cols="30" rows="10"></textarea>
+        
+        <input type="button" value="Submit Application">
+    </form>
+
+</body>
+
+</html>
